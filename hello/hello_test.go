@@ -7,6 +7,6 @@ func TestHello(t *testing.T) {
 	want := "Hello, George!"
 
 	if got != want {
-		t.Errorf("got %q want %q", got, want)
+		t.Errorf("got %s want %q", got, want)
 	}
 }
